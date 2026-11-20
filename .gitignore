@@ -1,0 +1,14 @@
+node_modules
+dist
+*.tsbuildinfo
+
+# Variables de entorno: todas ignoradas salvo la plantilla
+.env*
+!.env.example
+
+# Supabase CLI
+supabase/.temp
+supabase/.branches
+
+.DS_Store
+*.log
